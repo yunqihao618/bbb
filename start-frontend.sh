@@ -5,6 +5,7 @@ echo "正在启动前端开发服务器..."
 
 # 确保在正确的目录中
 cd "$(dirname "$0")"
+cd frontend
 echo "当前工作目录: $(pwd)"
 
 # 检查Next.js应用文件是否存在
