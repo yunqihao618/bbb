@@ -29,7 +29,8 @@ export default function UploadPage() {
     const file = event.target.files?.[0]
     if (file) {
       setSelectedFile(file)
-      await uploadFileToServer(file}
+      await uploadFileToServer(file)
+    }
   }
 
   const handleDrop = async (event: React.DragEvent) => {
